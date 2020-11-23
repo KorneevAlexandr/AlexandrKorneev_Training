@@ -1,0 +1,6 @@
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\obj\Debug\LibraryBakery.csprojAssemblyReference.cache
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\obj\Debug\LibraryBakery.csproj.CoreCompileInputs.cache
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\bin\Debug\LibraryBakery.dll
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\bin\Debug\LibraryBakery.pdb
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\obj\Debug\LibraryBakery.dll
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\obj\Debug\LibraryBakery.pdb

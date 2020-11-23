@@ -1,0 +1,10 @@
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.csprojAssemblyReference.cache
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.csproj.CoreCompileInputs.cache
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\DeclaringAndCalling.exe.config
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\DeclaringAndCalling.exe
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\DeclaringAndCalling.pdb
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\LibraryBakery.dll
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\LibraryBakery.pdb
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.csproj.CopyComplete
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.exe
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.pdb
