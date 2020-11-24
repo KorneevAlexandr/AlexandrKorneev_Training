@@ -4,3 +4,4 @@ D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\bin\Debug\LibraryBakery
 D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\bin\Debug\LibraryBakery.pdb
 D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\obj\Debug\LibraryBakery.dll
 D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\obj\Debug\LibraryBakery.pdb
+D:\Учеба\Training\DeclaringAndCalling\LibraryBakery\bin\Debug\LibraryBakery.xml

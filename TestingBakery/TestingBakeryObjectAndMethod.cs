@@ -202,8 +202,8 @@ namespace TestingBakery
 			Bakery L = new Lavash(line, 0.3, 3, 200, 10);
 
 			string expected;
-			expected = "Лаваш: 10 штук\nМасса: 0,3 кг\nЦена: 3,6 р" +
-				"\nКалорийность: 200 Дж\nНаценка: 1,2\n";
+			expected = "Лаваш: 10 штук\nМасса: 0,3 кг\nЦена: 4,2 р" +
+				"\nКалорийность: 200 Дж\nНаценка: 1,4\n";
 
 			string actual = L.ToString();
 

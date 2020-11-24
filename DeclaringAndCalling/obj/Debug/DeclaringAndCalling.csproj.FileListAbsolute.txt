@@ -8,3 +8,5 @@ D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\Library
 D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.csproj.CopyComplete
 D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.exe
 D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\obj\Debug\DeclaringAndCalling.pdb
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\DeclaringAndCalling.xml
+D:\Учеба\Training\DeclaringAndCalling\DeclaringAndCalling\bin\Debug\LibraryBakery.xml

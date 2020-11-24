@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryBakery
 {
+	/// <summary>
+	/// Class with the implementation of work with an array of products
+	/// </summary>
 	public class Options
 	{
 		/// <summary>
@@ -84,20 +87,26 @@ namespace LibraryBakery
 		/// <summary>
 		/// Finding products with the same specified value and calorie content
 		/// </summary>
-		/// <param name="user_price">User entered price</param>
-		/// <param name="user_calorie">User entered calorie content</param>
 		/// <returns>Array Bakery with suitable products</returns>
-		public Bakery[] FindSamePriceCalorie(double user_price, double user_calorie)
+		public Bakery[] FindSamePriceCalorie()
 		{
 			Bakery[] same_bakers = new Bakery[bakers.Length];
 
 			int j = 0;
-			for (int i = 0; i < bakers.Length; i++)
+			for (int i = 0; i < bakers.Length - 1; i++)
 			{
-				if (bakers[i].Price == user_price && bakers[i].Calorie == user_calorie)
+				for (int k = i + 1; k < bakers.Length - 1; k++)
 				{
-					same_bakers[j] = bakers[i];
-					j++;
+					if (bakers[i].Price == bakers[k].Price && bakers[i].Calorie == bakers[k].Calorie)
+					{
+						if (j == 0)
+						{
+							same_bakers[j] = bakers[i];
+							j++;
+						}
+						same_bakers[j] = bakers[k];
+						j++;
+					}
 				}
 			}
 
@@ -131,7 +140,7 @@ namespace LibraryBakery
 		/// <summary>
 		/// Finding products with more ingredients than a given number
 		/// </summary>
-		/// <param name="numerous">User-defined amount of ingredients</param>
+		/// <param name="numerous">Defined amount of ingredients</param>
 		/// <returns>Array Bakery with suitable products</returns>
 		public Bakery[] FindMoreIngridients(int numerous)
 		{
@@ -149,7 +158,6 @@ namespace LibraryBakery
 
 			return need_bakers;
 		}
-
 
 	}
 }

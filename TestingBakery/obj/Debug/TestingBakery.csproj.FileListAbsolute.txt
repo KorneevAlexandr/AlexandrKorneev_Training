@@ -17,3 +17,5 @@ D:\Учеба\Training\DeclaringAndCalling\TestingBakery\obj\Debug\TestingBakery
 D:\Учеба\Training\DeclaringAndCalling\TestingBakery\obj\Debug\TestingBakery.csproj.CopyComplete
 D:\Учеба\Training\DeclaringAndCalling\TestingBakery\obj\Debug\TestingBakery.dll
 D:\Учеба\Training\DeclaringAndCalling\TestingBakery\obj\Debug\TestingBakery.pdb
+D:\Учеба\Training\DeclaringAndCalling\TestingBakery\bin\Debug\TestingBakery.xml
+D:\Учеба\Training\DeclaringAndCalling\TestingBakery\bin\Debug\LibraryBakery.xml

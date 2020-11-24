@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestingBakery</name>
+    </assembly>
+    <members>
+        <member name="T:TestingBakery.TestingBakeryObjectAndMethod">
+            <summary>
+            Class for testing methods class Bakery
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.TestingComparisonMethod">
+            <summary>
+            Testing a method that finds an ingredient that is greater 
+            than a specified amount
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.TestingComparisonMethod_False">
+            <summary>
+            Testing a method that finds an ingredient that is greater 
+            than a specified amount when method return false
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.TestingCompareNumerousIngreidient_False">
+            <summary>
+            Testing a method that finds products with more
+            than a specified amount of ingredients when method return false
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.TestingCompareNumerousIngreidient">
+            <summary>
+            Testing a method that finds products with more
+            than a specified amount of ingredients
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.Check_Equals_Bakery_Ans_Null">
+            <summary>
+            Equals comparison of two objects
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.Check_Equals_Bread_And_Empty_Object">
+            <summary>
+            Equals comparison of two objects
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.Check_Equals_Different_Bakery_Object">
+            <summary>
+            Equals comparison of two objects
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.Check_Equals_Same_Bakery_Object">
+            <summary>
+            Equals comparison of two objects
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.Testing_GetHashCode">
+            <summary>
+            Method testing GetHashCode
+            </summary>
+        </member>
+        <member name="M:TestingBakery.TestingBakeryObjectAndMethod.Testing_False_ToString">
+            <summary>
+            Comparison of strings, which should be in the output 
+            and returned by the ToString method
+            </summary>
+        </member>
+    </members>
+</doc>

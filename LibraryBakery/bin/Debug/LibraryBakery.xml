@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryBakery</name>
+    </assembly>
+    <members>
+        <member name="T:LibraryBakery.Baget">
+            <summary>
+            Child class baget
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Baget.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Baget.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Baget.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.Baget.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Baget.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Baget.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.Baget.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.Baget.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.Bakery">
+            <summary>
+            Abstract parent class of bakery products
+            </summary>
+        </member>
+        <member name="P:LibraryBakery.Bakery.Weight">
+            <summary>
+            Product weight
+            </summary>
+        </member>
+        <member name="P:LibraryBakery.Bakery.Price">
+            <summary>
+            Product price
+            </summary>
+        </member>
+        <member name="P:LibraryBakery.Bakery.Calorie">
+            <summary>
+            Product calorie
+            </summary>
+        </member>
+        <member name="P:LibraryBakery.Bakery.Numerous">
+            <summary>
+            Product numerous
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Bakery.#ctor(System.Double,System.Double,System.Double,System.Int32,System.Double)">
+            <summary>
+            Constructor to initialize an object
+            </summary>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product calorie</param>
+            <param name="Numerous">Product numerous</param>
+            <param name="markup">Product markup (for price)</param>
+        </member>
+        <member name="M:LibraryBakery.Bakery.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bakery.NumerousIngridients(System.Int32)">
+            <summary>
+            A method for finding the number of ingredients in a 
+            product and comparing it with a given number
+            </summary>
+            <param name="numerous">Specified number</param>
+            <returns>true - if the number of ingredients is less than the specified number,
+            false - if less</returns>
+        </member>
+        <member name="T:LibraryBakery.Bread">
+            <summary>
+            Child class bread
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Bread.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Bread.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Bread.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.Bread.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bread.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bread.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.Bread.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.Bread.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.BreadRye">
+            <summary>
+            Child class BreadRye
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.BreadRye.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.BreadRye.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.BreadRye.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.BreadRye.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.BreadRye.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.BreadRye.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.BreadRye.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.BreadRye.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.Bublic">
+            <summary>
+            Child class bublic
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Bublic.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Bublic.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Bublic.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.Bublic.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bublic.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bublic.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.Bublic.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.Bublic.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.Bun">
+            <summary>
+            Child class bun
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Bun.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Bun.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Bun.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.Bun.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bun.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Bun.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.Bun.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.Bun.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.Fabrics">
+            <summary>
+            Class for create object fabric method
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Fabrics.Total(System.Int32,System.String[])">
+            <summary>
+            Find summa elements into massiv, consist of word one obect
+            </summary>
+            <param name="begin"> The index of the element 
+            in the array from which to search for the sum</param>
+            <param name="mas">An array containing the required data</param>
+            <returns>Summa</returns>
+        </member>
+        <member name="M:LibraryBakery.Fabrics.MakeObject(System.String[],System.String,System.Int32)">
+            <summary>
+            Creating an object of the required class
+            </summary>
+            <param name="mas">Array with data about object</param>
+            <param name="name">Name object</param>
+            <param name="numerous">Numerous object</param>
+            <returns>Object type Bakery</returns>
+        </member>
+        <member name="T:LibraryBakery.Lavash">
+            <summary>
+            Child class lavash
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Lavash.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Lavash.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Lavash.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.Lavash.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Lavash.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Lavash.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.Lavash.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.Lavash.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.Loaf">
+            <summary>
+            Child class loaf
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Loaf.data_line">
+            <summary>
+            Array with ingridient
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Loaf.markup">
+            <summary>
+            Markup for price
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Loaf.#ctor(System.String[],System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Constructor for product initialization
+            </summary>
+            <param name="data_line">Array with ingridient</param>
+            <param name="Weight">Product weight</param>
+            <param name="Price">Product price</param>
+            <param name="Calorie">Product Calorie</param>
+            <param name="Numerous">Product numerous</param>
+        </member>
+        <member name="M:LibraryBakery.Loaf.ComparisonVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="name_ingridient">Name of the ingredient being searched for</param>
+            <param name="volume">Ingredient amount</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Loaf.NumerousIngridients(System.Int32)">
+            <summary>
+            Finding products for which the use of an ingredient 
+            is greater than the specified value
+            </summary>
+            <param name="numerous">Numerous ingredient</param>
+            <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
+        </member>
+        <member name="M:LibraryBakery.Loaf.ToString">
+            <summary>
+            Overriding the ToString method
+            </summary>
+            <returns>Product information line</returns>
+        </member>
+        <member name="M:LibraryBakery.Loaf.Equals(System.Object)">
+            <summary>
+            Overriding the Equals method
+            </summary>
+            <param name="obj">Compared object</param>
+            <returns>True - if objects same, false - if objects different</returns>
+        </member>
+        <member name="M:LibraryBakery.Loaf.GetHashCode">
+            <summary>
+            Hash function
+            </summary>
+            <returns>Hash code (length array)</returns>
+        </member>
+        <member name="T:LibraryBakery.Menu">
+            <summary>
+            Class for outputting information to the console
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Menu.PrintMas(LibraryBakery.Bakery[])">
+            <summary>
+            Console output of all objects
+            </summary>
+            <param name="bakers">Bakery array of file</param>
+        </member>
+        <member name="M:LibraryBakery.Menu.ShowMenu">
+            <summary>
+            A method of displaying information about all products by various methods.
+            </summary>
+        </member>
+        <member name="T:LibraryBakery.Options">
+            <summary>
+            Class with the implementation of work with an array of products
+            </summary>
+        </member>
+        <member name="F:LibraryBakery.Options.bakers">
+            <summary>
+            Array type Bakery
+            </summary>
+        </member>
+        <member name="M:LibraryBakery.Options.#ctor(LibraryBakery.Bakery[])">
+            <summary>
+            Constructor to initialize an array Bakery
+            </summary>
+            <param name="bakers">Bakery array</param>
+        </member>
+        <member name="M:LibraryBakery.Options.CloneSortCalorie">
+            <summary>
+            Clone Bakery array and it is sorted by calorie content(ascending)
+            </summary>
+            <returns>Sorted array</returns>
+        </member>
+        <member name="M:LibraryBakery.Options.CopySortPrice">
+            <summary>
+            Copy Bakery array and it is sorted by price (ascending)
+            </summary>
+            <returns>Sorted array</returns>
+        </member>
+        <member name="M:LibraryBakery.Options.FindSamePriceCalorie">
+            <summary>
+            Finding products with the same specified value and calorie content
+            </summary>
+            <returns>Array Bakery with suitable products</returns>
+        </member>
+        <member name="M:LibraryBakery.Options.FindBigVolume(System.String,System.Double)">
+            <summary>
+            Finding products for which the use of ingredients is greater
+            than the specified value
+            </summary>
+            <param name="name_ingridient">Name ingridients entered user</param>
+            <param name="volume">Weight entered user</param>
+            <returns>Array Bakery with suitable products</returns>
+        </member>
+        <member name="M:LibraryBakery.Options.FindMoreIngridients(System.Int32)">
+            <summary>
+            Finding products with more ingredients than a given number
+            </summary>
+            <param name="numerous">Defined amount of ingredients</param>
+            <returns>Array Bakery with suitable products</returns>
+        </member>
+        <member name="T:LibraryBakery.ParsingTextFile">
+             <summary>
+            A class for reading a text file and splitting its lines into an array
+             </summary>
+        </member>
+        <member name="M:LibraryBakery.ParsingTextFile.CutStrok(System.String[][],System.Int32)">
+            <summary>
+            2D array processing and object creation(via factory method)
+            </summary>
+            <param name="general_mas">2D array consist words</param>
+            <param name="count">Numerous object</param>
+            <returns>Array bakery objects</returns>
+        </member>
+        <member name="M:LibraryBakery.ParsingTextFile.BreakingStrokInBakers">
+            <summary>
+            Breaking strok by word in 2D array
+            </summary>
+            <returns>Array bakery objects</returns>
+        </member>
+        <member name="M:LibraryBakery.ParsingTextFile.ReadFile">
+            <summary>
+            Checking for the existence of a file and reading 
+            it into one string variable
+            </summary>
+            <returns>Text inside file</returns>
+        </member>
+    </members>
+</doc>

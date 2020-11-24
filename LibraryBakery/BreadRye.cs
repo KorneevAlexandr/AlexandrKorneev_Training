@@ -64,8 +64,7 @@ namespace LibraryBakery
 		/// Finding products for which the use of an ingredient 
 		/// is greater than the specified value
 		/// </summary>
-		/// <param name="name_ingridient">Name of the ingredient being searched for</param>
-		/// <param name="volume">Ingredient amount</param>
+		/// <param name="numerous">Numerous ingredient</param>
 		/// <returns>true - if there is more ingredient, false - if less or no ingredient</returns>
 		public override bool NumerousIngridients(int numerous)
 		{

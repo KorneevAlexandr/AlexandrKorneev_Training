@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DeclaringAndCalling</name>
+    </assembly>
+    <members>
+        <member name="T:DeclaringAndCalling.Program">
+            <summary>
+            Begin class
+            </summary>
+        </member>
+        <member name="M:DeclaringAndCalling.Program.Main(System.String[])">
+            <summary>
+            Program entry point
+            </summary>
+            <param name="args">Arguments method Main</param>
+        </member>
+    </members>
+</doc>
